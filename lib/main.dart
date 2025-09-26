@@ -20,7 +20,7 @@ class ImageScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 168, 66, 66),
+      backgroundColor: const Color.fromARGB(255, 255, 255, 255),
       body: Center(
         child: ClipRRect(
           child: Image(image: const AssetImage('assets/images/biglietto.jpg')),
