@@ -23,7 +23,7 @@ class ImageScreen extends StatelessWidget {
       backgroundColor: const Color.fromARGB(255, 255, 255, 255),
       body: Center(
         child: ClipRRect(
-          child: Image(image: const AssetImage('assets/images/biglietto.png')),
+          child: Image(image: const AssetImage('assets/images/biglietto.jpg')),
         ),
       ),
     );
